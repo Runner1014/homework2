@@ -168,3 +168,15 @@ public class Moon : MonoBehaviour {
 - **效果图**
 
 ![这里写图片描述](http://img.blog.csdn.net/20180401115801437?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUnVubmVyMXN0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+**3、列出游戏中提及的事物（Objects）**
+
+答：对象有：priests、devils、boat、coasts
+
+**4、用表格列出玩家动作表（规则表），注意，动作越少越好**
+
+|事物|事件|条件|
+|--|--|--|
+|priests|上下船|游戏进行中鼠标点击对象且船在相应岸边，上船条件还需有空位|
+|devils|上下船|同上|
+|boat|来回移动|游戏进行中鼠标点击且船不空|
